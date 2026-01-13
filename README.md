@@ -104,7 +104,7 @@ reconciliation-visualizer/
 
 ### Clone Repository
 
-git clone https:[//github.com/YOUR_USERNAME/reconciliation-visualizer.git](https://github.com/HarxitG/Reconciliation-Visualizer.git)
+git clone https:(https://github.com/HarxitG/Reconciliation-Visualizer.git)
 cd reconciliation-visualizer
 
 ---
