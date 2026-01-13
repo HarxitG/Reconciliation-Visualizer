@@ -104,7 +104,7 @@ reconciliation-visualizer/
 
 ### Clone Repository
 
-git clone https://github.com/YOUR_USERNAME/reconciliation-visualizer.git
+git clone https:[//github.com/YOUR_USERNAME/reconciliation-visualizer.git](https://github.com/HarxitG/Reconciliation-Visualizer.git)
 cd reconciliation-visualizer
 
 ---
@@ -112,23 +112,26 @@ cd reconciliation-visualizer
 ### Backend Setup
 
 cd backend
+```
 npm install
 node index.js
-
+```
 Backend runs on:
+```
 http://localhost:5000
-
+```
 ---
 
 ### Frontend Setup
-
+```
 cd ../frontend
 npm install
 npm run dev
-
+```
 Frontend runs on:
+```
 http://localhost:5173
-
+```
 ---
 
 ## Deployment (Render)
@@ -137,9 +140,13 @@ http://localhost:5173
 
 Root Directory: backend
 Build Command:
+```
 npm install
-Start Command:
+```
+Start Command
+```
 node index.js
+```
 
 ---
 
@@ -147,13 +154,18 @@ node index.js
 
 Root Directory: frontend
 Build Command:
+```
 npm install && npm run build
+```
 Publish Directory:
+```
 dist
+```
 
 Environment Variable:
-VITE_API_URL=https://<backend-name>.onrender.com
+VITE_API_URL=[https://<backend-name>.onrender.com](https://reconciliation-visualizer.onrender.com)
 
+Live: https://reconciliation-visualizer-1.onrender.com
 ---
 
 ## Testing
